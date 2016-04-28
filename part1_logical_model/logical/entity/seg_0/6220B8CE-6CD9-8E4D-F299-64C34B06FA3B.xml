@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6220B8CE-6CD9-8E4D-F299-64C34B06FA3B" name="Department">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 02:33:51 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dept_no" id="AC7B542F-E653-DAC4-8620-2D144439A29F">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 02:33:51 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<importedID>BD4C7352-05DC-221A-E9DE-D7B363FC7750</importedID>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_name" id="2D427C2F-F530-6539-D0D2-3349B637FB88">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 02:33:51 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<importedID>27B53013-4DBC-D14E-26BB-8A6858B97720</importedID>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B42177C-CC7C-A52B-2DEC-60999C051E10" name="Department PK">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 02:33:51 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AC7B542F-E653-DAC4-8620-2D144439A29F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

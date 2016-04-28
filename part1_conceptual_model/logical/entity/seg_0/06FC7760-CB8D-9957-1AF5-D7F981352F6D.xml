@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06FC7760-CB8D-9957-1AF5-D7F981352F6D" name="Department">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 01:14:01 UTC</createdTime>
+<ownerDesignName>part1_conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="161FF83C-3280-3B92-CB25-F72CACD3CBF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dept_no" id="BD4C7352-05DC-221A-E9DE-D7B363FC7750">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 01:14:07 UTC</createdTime>
+<ownerDesignName>part1_conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="161FF83C-3280-3B92-CB25-F72CACD3CBF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_name" id="27B53013-4DBC-D14E-26BB-8A6858B97720">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 01:14:18 UTC</createdTime>
+<ownerDesignName>part1_conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="161FF83C-3280-3B92-CB25-F72CACD3CBF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="050B6006-2538-0882-0073-0A9DE78FAAA8" name="Department PK">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 01:14:17 UTC</createdTime>
+<ownerDesignName>part1_conceptual_model</ownerDesignName>
+<engineerTo>
+<item key="161FF83C-3280-3B92-CB25-F72CACD3CBF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BD4C7352-05DC-221A-E9DE-D7B363FC7750</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

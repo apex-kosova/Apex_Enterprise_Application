@@ -1,0 +1,242 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA34887E-E896-FD23-3422-12F696F68BCC" name="Project">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 02:33:51 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_no" id="5551878C-D896-4123-8CF0-618CCBEC1DB6">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 02:33:51 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<importedID>7D33339E-9FA7-D421-3223-5015854480D6</importedID>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_title" id="BCE1E11C-8A3F-F851-D6B1-3EDD7C6D7F71">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 02:33:51 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<importedID>9404A44A-1270-7215-17D7-F7D13BB38B7F</importedID>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="B36F591C-4601-CBFA-9904-D9DAB5419B61">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-19 01:15:10 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="CAD7E285-1F71-7E76-CD2D-18E4DB624862">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-25 23:13:42 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comments" id="CBF35D38-80D9-3B17-905E-3B1DC905AF7E">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-25 23:13:42 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="documents" id="FCB6EEC9-9870-422B-A9E0-1358404A9575">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-25 23:13:42 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="person_id" id="5BE6A715-8169-518B-66D5-48D1E438058B">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-30 00:29:50 UTC</createdTime>
+<generatorID>2BEC52E0-D115-AC76-F3BC-D341559EEA32</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<referedAttribute>012254F9-55B0-F45C-46B3-B37296D42E61</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_no" id="5C08B087-79B6-BDA8-7C90-65F98CB4B383">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 02:33:51 UTC</createdTime>
+<generatorID>826064CF-F9E4-4BD3-BA9A-8015CC526DF5</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<importedID>06A4B18A-B715-8294-499F-CC2E1701ACF9</importedID>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<referedAttribute>AC7B542F-E653-DAC4-8620-2D144439A29F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sub_projects" id="5E641FAC-3CDE-3A86-79E4-B8EF7B6CF16D">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 02:33:51 UTC</createdTime>
+<generatorID>F3110238-8905-44B6-0F05-F155230C6D46</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<importedID>BEB91AA3-70F6-0983-A040-0FE017CCECA8</importedID>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5551878C-D896-4123-8CF0-618CCBEC1DB6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sub_project_of" id="1283C0E6-B6B1-9DA3-0699-457451836067">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 02:33:51 UTC</createdTime>
+<generatorID>B79E852B-9D09-E3BD-802A-7877410DF5E8</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<importedID>ECEEE361-5557-4BDA-F4AC-3C06713CAE0D</importedID>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5551878C-D896-4123-8CF0-618CCBEC1DB6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_active" id="1B432F00-0D99-27ED-8E82-A722E4CE4688">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-19 00:15:10 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date_month" id="4DC7B445-F1F8-7946-F010-5B855939CF17">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-19 00:16:49 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date_day" id="E372827A-7FE6-D59A-5295-A5E645E3C9F2">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-19 00:17:48 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date_year" id="7E267F7C-B146-A61C-F9EA-432CC4596860">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-19 00:17:48 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="est_person_hours" id="2DB0FE49-2A6F-A6BB-D7FD-777AC6343F0B">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-19 00:17:48 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F99630A1-1CAB-AEAE-4D95-0EC7DB38DEE3" name="Project PK">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-28 02:33:51 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5551878C-D896-4123-8CF0-618CCBEC1DB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

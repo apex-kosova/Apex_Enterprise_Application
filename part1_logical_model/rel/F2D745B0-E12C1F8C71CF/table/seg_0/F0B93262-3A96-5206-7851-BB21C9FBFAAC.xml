@@ -1,0 +1,266 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0B93262-3A96-5206-7851-BB21C9FBFAAC" name="Project">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>CA34887E-E896-FD23-3422-12F696F68BCC</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="project_no" id="64F42AAE-C58A-AF89-D852-7EC4873FA018">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>5551878C-D896-4123-8CF0-618CCBEC1DB6</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_title" id="CA0A2168-BA5A-2EF1-9F1A-6501CB350485">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>BCE1E11C-8A3F-F851-D6B1-3EDD7C6D7F71</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="D4165824-8DC9-A0A5-A1D5-2D9A16C88C85">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>B36F591C-4601-CBFA-9904-D9DAB5419B61</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="ABC3D5F4-6C86-F352-E506-22ED0265B3B0">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>CAD7E285-1F71-7E76-CD2D-18E4DB624862</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comments" id="7AAA8129-D938-C94B-B10B-4DF37919796F">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>CBF35D38-80D9-3B17-905E-3B1DC905AF7E</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="documents" id="C734F0D5-15B8-8567-9C3D-C706F3423F22">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>FCB6EEC9-9870-422B-A9E0-1358404A9575</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_person_id" id="9762E1C7-A3A0-7F70-0BD6-DA029AD2BF77">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>5BE6A715-8169-518B-66D5-48D1E438058B</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF7A0790-29A3-C4BE-7A34-DF4A68A99C1A" referredColumn="A222F243-BADA-2770-7714-ED0A38387966"/>
+</associations>
+</Column>
+<Column name="Department_dept_no" id="97B21F8F-D9F4-71C4-5C45-8B3FCA7B4490">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>5C08B087-79B6-BDA8-7C90-65F98CB4B383</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8A7A84D-9CCD-7193-EB8C-962A305C3968" referredColumn="0164EC44-3655-78CB-A40D-E95361A59DBB"/>
+</associations>
+</Column>
+<Column name="Project_project_no1" id="5C556F98-3D8D-22D1-DE89-CD6784B6B9A4">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>5E641FAC-3CDE-3A86-79E4-B8EF7B6CF16D</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8CB2AB1-37F2-2E12-50B4-4FA1A0A2B29D" referredColumn="64F42AAE-C58A-AF89-D852-7EC4873FA018"/>
+</associations>
+</Column>
+<Column name="Project_project_no" id="B0F1295C-E7DC-2BC9-8A10-79C52ADC48E3">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>1283C0E6-B6B1-9DA3-0699-457451836067</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="639C5491-0A1A-3403-171F-E84498777A7B" referredColumn="64F42AAE-C58A-AF89-D852-7EC4873FA018"/>
+</associations>
+</Column>
+<Column name="project_active" id="8FAAED8D-F619-2DAD-B961-D000B3B375B9">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>1B432F00-0D99-27ED-8E82-A722E4CE4688</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date_month" id="292C70FE-F8B4-D1E6-12D7-B193C9790DE6">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>4DC7B445-F1F8-7946-F010-5B855939CF17</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date_day" id="7D8AD5E9-51F4-0CC5-EDDA-C02E5E81A4F3">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>E372827A-7FE6-D59A-5295-A5E645E3C9F2</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date_year" id="72596A98-42E3-B358-22F3-A87F3B480BEC">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>7E267F7C-B146-A61C-F9EA-432CC4596860</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="est_person_hours" id="96ACCB90-1AE6-9CD9-9DE8-4D52E09B49C0">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>2DB0FE49-2A6F-A6BB-D7FD-777AC6343F0B</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE9BC4D4-664D-E57D-2BC0-40E05F1E5C4D" name="Project_PK">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>F99630A1-1CAB-AEAE-4D95-0EC7DB38DEE3</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64F42AAE-C58A-AF89-D852-7EC4873FA018"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="453DDC6A-E9A1-577F-B2EA-4E986536F7A0" name="Project_Department_FK">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>826064CF-F9E4-4BD3-BA9A-8015CC526DF5</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97B21F8F-D9F4-71C4-5C45-8B3FCA7B4490"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9395310-16F0-B72B-4341-9688F78B2C9D" name="Project_Person_FK">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>2BEC52E0-D115-AC76-F3BC-D341559EEA32</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9762E1C7-A3A0-7F70-0BD6-DA029AD2BF77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0359FB91-464C-04AC-D86E-2EAAA03ACA03" name="Project_Project_FK">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>B79E852B-9D09-E3BD-802A-7877410DF5E8</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0F1295C-E7DC-2BC9-8A10-79C52ADC48E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D30F26A7-3277-6DD4-5970-D3E4A34BC64D" name="Project_Project_FKv1">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-04-27 22:57:50 UTC</createdTime>
+<generatorID>F3110238-8905-44B6-0F05-F155230C6D46</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C556F98-3D8D-22D1-DE89-CD6784B6B9A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

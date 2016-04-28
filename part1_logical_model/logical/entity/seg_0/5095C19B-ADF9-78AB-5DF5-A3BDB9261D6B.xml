@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5095C19B-ADF9-78AB-5DF5-A3BDB9261D6B" name="Parent_Child">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-30 00:25:51 UTC</createdTime>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Parent" id="5A16C4BD-D8FC-D358-470F-34143AF281CF">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-30 00:26:35 UTC</createdTime>
+<generatorID>D3EB0818-9C08-C2A1-E743-152425880508</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<referedAttribute>012254F9-55B0-F45C-46B3-B37296D42E61</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Child" id="6F2B52FC-CD40-4CBB-4440-E5864F9015A8">
+<createdBy>Kaivan</createdBy>
+<createdTime>2016-03-30 00:27:01 UTC</createdTime>
+<generatorID>05EAE172-8B4F-8DFB-67EE-5A21443FDD42</generatorID>
+<ownerDesignName>part1_logical_model</ownerDesignName>
+<engineerTo>
+<item key="F2D745B0-A695-1972-5340-E12C1F8C71CF" value="true"/>
+</engineerTo>
+<referedAttribute>012254F9-55B0-F45C-46B3-B37296D42E61</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

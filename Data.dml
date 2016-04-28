@@ -1,0 +1,79 @@
+-- Truncate each of the sample data tables using the following statement:
+truncate table Person;
+truncate table Parent_Child;
+truncate table Emp_Proj;
+truncate table Department;
+truncate table history_status;
+truncate table Project;
+
+-- Disable the PK triggers on the sample data tables using the following statement:
+alter trigger Department_PK_trig disable;
+alter trigger Person_PK_trig disable;
+alter trigger Project_PK_trig disable;
+alter trigger history_status_PK_trig disable;
+alter trigger Previous_Employee_trigger disable;
+alter trigger Employee_trigger disable;
+alter trigger Manager_trigger disable;
+alter trigger President_trigger disable;
+alter trigger Interim_Manager_trigger disable;
+alter trigger Project_Employee_trigger disable;
+alter trigger Previous_Project_trigger disable;
+alter trigger Current_Project_trigger disable;
+
+-- Put all of the sample data INSERT statements here. Be sure to use PK and FK values that
+-- are < 100 so that they won't be reapeated by the PK triggers when they are re-enabled.
+
+--DEPARTMENT INSERT
+--Department 2
+INSERT INTO Department(DEPT_NO, DEPT_NAME)
+VALUES(2, 'Candy_Department'); 
+
+--PERSON INSERT
+--Manager
+INSERT INTO Person(PERSON_ID, FIRST_NAME, LAST_NAME, HOME_ADDRESS, ZIPCODE, HOME_PHONE, 
+US_CITIZEN, SPOUSE, TYPE, DEPT_NO, MANAGER_EMP, LOGIN_ID, 
+SALARY, SALARY_EXCEPTION, BONUS, ISFIRED)
+VALUES(30, 'Kaivan', 'Shah', 'Lollipop Blvd', 78705, 9876543210, 1, NULL, 'Manager',
+	   2, NULL, 0100, 500000, 0, 50000, NULL);
+
+--Employee
+INSERT INTO Person(PERSON_ID, FIRST_NAME, LAST_NAME, HOME_ADDRESS, ZIPCODE, HOME_PHONE, 
+US_CITIZEN, SPOUSE, TYPE, DEPT_NO, MANAGER_EMP, LOGIN_ID, 
+SALARY, SALARY_EXCEPTION, BONUS, ISFIRED)
+VALUES(1, 'Rambo', 'Wu', 'Candy Lane', 78701, 1234567890, 1, NULL, 'Employee',
+	   NULL, 30, 0001, 100000, 0, NULL, NULL);
+
+--Project_Employee
+INSERT INTO Person(PERSON_ID, FIRST_NAME, LAST_NAME, HOME_ADDRESS, ZIPCODE, HOME_PHONE, 
+US_CITIZEN, SPOUSE, TYPE, DEPT_NO, MANAGER_EMP, LOGIN_ID, 
+SALARY, SALARY_EXCEPTION, BONUS, ISFIRED)
+VALUES(10, 'Danyal', 'Rizvi', 'Pineapple Expressway', 78702, 1234543210, 1, NULL, 'Project_Employee',
+	   NULL, 30, 0010, 200000, 0, NULL, NULL);
+
+--Interim_Manager
+INSERT INTO Person(PERSON_ID, FIRST_NAME, LAST_NAME, HOME_ADDRESS, ZIPCODE, HOME_PHONE, 
+US_CITIZEN, SPOUSE, TYPE, DEPT_NO, MANAGER_EMP, LOGIN_ID, 
+SALARY, SALARY_EXCEPTION, BONUS, ISFIRED)
+VALUES(20, 'Bob', 'Smith', 'Candycane Ct', 78705, 9123456210, 1, NULL, 'Interim-Manager',
+	   2, 30, 0101, 400000, 0, 20000, NULL);
+
+-- President
+INSERT INTO Person(PERSON_ID, FIRST_NAME, LAST_NAME, HOME_ADDRESS, ZIPCODE, HOME_PHONE, 
+US_CITIZEN, SPOUSE, TYPE, DEPT_NO, MANAGER_EMP, LOGIN_ID, 
+SALARY, SALARY_EXCEPTION, BONUS, ISFIRED)
+VALUES(40, 'Joe', 'Smith', 'Candycane Ct', 78705, 2147583690, 1, NULL, 'President',
+	   NULL, NULL, 1000, 40000000, 0, 500000, NULL);
+
+-- Enable the PK triggers on the sample data tables using the following statement:
+alter trigger Department_PK_trig enable;
+alter trigger Person_PK_trig enable;
+alter trigger Project_PK_trig enable;
+alter trigger history_status_PK_trig enable;
+alter trigger Previous_Employee_trigger enable;
+alter trigger Employee_trigger enable;
+alter trigger Manager_trigger enable;
+alter trigger President_trigger enable;
+alter trigger Interim_Manager_trigger enable;
+alter trigger Project_Employee_trigger enable;
+alter trigger Previous_Project_trigger enable;
+alter trigger Current_Project_trigger enable;
